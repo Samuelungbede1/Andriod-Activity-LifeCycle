@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/stateOfActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/currentOrientation"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:textSize="40dp"
+        android:gravity="center_horizontal" />
+</RelativeLayout>
